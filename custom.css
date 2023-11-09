@@ -30,7 +30,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   align-items: center;
   padding-top: 1vw;
   padding-bottom: 1vw;
@@ -42,8 +41,9 @@
   font-family: Supra;
   font-size: 4vw;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bolder;
   line-height: normal;
+  
 }
 .text {
   color: #fff;
@@ -51,7 +51,7 @@
   font-family: Supra;
   font-size: 3vw;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bolder;
   line-height: normal;
 }
 .text1 {
@@ -60,7 +60,7 @@
   font-family: Supra;
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
 }
 .text2 {
@@ -69,7 +69,7 @@
   font-family: Supra;
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
   display: none;
 }
@@ -79,7 +79,7 @@
   font-family: Supra;
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
   display: none;
 }
@@ -167,7 +167,7 @@
   font-family: Supra;
   font-size: 3.6vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
   margin: 0;
 }
@@ -177,7 +177,7 @@
   font-family: Supra;
   font-size: 3vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
   margin: 0;
 }
@@ -187,7 +187,7 @@
   font-family: Supra;
   font-size: 2.8vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
   margin: 0;
 }
@@ -198,7 +198,7 @@
   font-family: Supra;
   font-size: 6vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
 }
 
@@ -208,7 +208,7 @@
   font-family: Supra;
   font-size: 6vw;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: normal;
 }
 
@@ -218,7 +218,7 @@
   font-family: Helvetica Neue;
   font-size: 5vw;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bolder;
   line-height: normal;
 }
 
@@ -272,8 +272,9 @@
               font-family: Supra;
               font-size: 3vw;
               font-style: normal;
-              font-weight: 700;
+              font-weight: bolder;
               line-height: normal;
+              letter-spacing: 0.25vw;
               margin: 0;
 }
 .third-main-text{
@@ -282,7 +283,8 @@
               font-family: Supra;
               font-size: 5vw;
               font-style: normal;
-              font-weight: 900;
+              font-weight: bolder;
+              letter-spacing: 0.25vw;
               line-height: normal;margin: 0;
 }
 .third-main-footer{
