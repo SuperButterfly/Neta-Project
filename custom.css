@@ -262,6 +262,7 @@
   height: 15vw;
   border: #00A3FF 1vw solid;
   background-color: #FFF;
+  margin-bottom: 2vw;
 }
 .black-neta{
   width: 11vw;
@@ -274,18 +275,15 @@
               font-style: normal;
               font-weight: bolder;
               line-height: normal;
-              letter-spacing: 0.25vw;
+              letter-spacing: 0.3vw;
               margin: 0;
 }
 .third-main-text{
-  color: #4F4F4F;
-              text-align: center;
-              font-family: Supra;
-              font-size: 5vw;
-              font-style: normal;
-              font-weight: bolder;
-              letter-spacing: 0.25vw;
-              line-height: normal;margin: 0;
+  width: 56vw;
+  margin-top: 2vw;
+}
+.text-ver{
+  display: none;
 }
 .third-main-footer{
   width: 100vw;
@@ -443,11 +441,13 @@
       font-size: 12vw;
       width: 55vw;
       margin-top: 10vw;
+      display: none;
   }
   [class="avatar"]{
       width: 70vw;
       height: 70vw;
       margin-top: -20vw;
+      border: #00A3FF 3vw solid;
   }
   [class="third-main-footer"]{
       display: block;
@@ -464,6 +464,11 @@
   }
   [class="dash-line-des"]{
     visibility: hidden;
+  }
+  [class="text-ver"]{
+    width: 55vw;
+    margin-top: 10vw;
+    display: block;
   }
 }
 
