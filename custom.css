@@ -1,3 +1,17 @@
+body{
+  margin: 0 !important;
+}
+.container-mobile{
+  width: 100%;
+  height: 100%;
+  background-color: #00a3ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -36,14 +50,9 @@
 }
 
 .text0 {
-  color: #fff;
-  text-align: center;
-  font-family: Supra;
-  font-size: 4vw;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: normal;
-  
+  margin-top: 3vw;
+  width: 45vw;
+
 }
 .text {
   color: #fff;
@@ -55,13 +64,8 @@
   line-height: normal;
 }
 .text1 {
-  color: #fff;
-  text-align: center;
-  font-family: Supra;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: normal;
+  width: 55vw;
+  margin-top: 3vw;
 }
 .text2 {
   color: #fff;
@@ -153,8 +157,8 @@
 }
 
 .second-main-img {
-  width: 10vw;
-  height: 25vh;
+  width: 12vw;
+  height: 28vh;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-right: 2vw;
@@ -329,7 +333,7 @@
     margin-right: 0.7vw;
     margin-left: 0.7vw;
 }
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1200px) {
   [class="m-media"] {
     display: block;
   }
@@ -344,7 +348,8 @@
     display: none;
   }
   [class="text"] {
-    font-size: 9vw;
+    width: 75vw;
+    margin-top: 2vw ;
   }
   [class="text1"] {
     font-size: 30px;
@@ -369,6 +374,7 @@
   }
   [class="second-main"] {
     background-image: url("images/Rectangle-four.png");
+    background-size: 100% 61%;
     width: 90vw;
     height: 65vh;
     padding-top: 10vw;
@@ -387,6 +393,7 @@
   [class="second-main-img"] {
     background-image: url("images/Ellipse-109.png");
     width: 40vw;
+    height: 45vw;
     margin-left: 25vw;
   }
 
@@ -405,16 +412,19 @@
   [class="text-fourth"] {
     margin: 0;
     margin-top: 10px;
+    letter-spacing: 0.8vw;
     display: block;
   }
 
   [class="text-fifth"] {
     margin: 0;
+    letter-spacing: 0.8vw;
     display: block;
   }
 
   [class="text-sixth"] {
     margin: 0;
+    letter-spacing: 0.2vw;
     display: block;
   }
      /* 3.html */
@@ -446,7 +456,7 @@
   [class="avatar"]{
       width: 70vw;
       height: 70vw;
-      margin-top: -20vw;
+      margin-top: -8vw;
       border: #00A3FF 3vw solid;
   }
   [class="third-main-footer"]{
